@@ -42,6 +42,7 @@
 	<div class="topnav">
 	  <a href="index.php">Home</a>
 	  <a class="active" href="profile.php">Profile</a>
+    <a href="resources.php">Share Resource</a>
 	</div>
 
 	<div class="sidepanel">

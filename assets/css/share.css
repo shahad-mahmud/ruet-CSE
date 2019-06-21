@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F7F4F4;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  box-shadow: 0px 2px 3px 0 rgba(80, 80, 80, 0.5), 0 0px 0px 0 rgba(0, 0, 0, 0.5);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 29px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #484848;
+  color: #f2f2f2;
+}
+
+.topnav a.active {
+  background-color: #585858;
+  color: white;
+}
+
+//side panel
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+
+
+/*form design*/
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=file], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #C43516;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #872510;
+}
+
+.form_container {
+  margin: auto;
+  width: 60%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+/*home*/
+.home{
+  margin-top: 10px;
+  margin-left: 290px;  /*Same width as the sidebar + left position in px */
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  z-index: 1;
+  background-color: inherit;
+}
+
+.home .filtered{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 8px;
+  padding: 2px 16px;
+  /* background-color: red; */
+  border-bottom: 0.5px solid;
+  border-bottom-color: #c1c1c1;
+}
+
+.home .filtered .words{
+  padding: 2px 4px;
+  border: .5px solid;
+  background-color: #e8e9f3;
+  border-color: gainsboro;
+  border-radius: 4px;
+  margin-top: 2px;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.home .filtered .values{
+  padding: 2px 4px;
+  border: .5px solid;
+  background-color: #d6f9c6d6;
+  border-color: gainsboro;
+  border-radius: 4px;
+  margin-top: 2px;
+  display: inline-block;
+  font-size: 13px;
+  margin-right: 8px;
+}
+
+.home .filtered .clear{
+  padding: 2px 4px;
+  border: .5px solid;
+  background-color: #ff7b7b;
+  border-color: gainsboro;
+  border-radius: 4px;
+  margin-top: 2px;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.home .container{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5), 0 0px 0px 0 rgba(0, 0, 0, 0.4);
+}
+
+.home .container .file_container{
+  padding: 16px;
+  /* border: .5px solid; */
+  border-radius: 3px;
+  margin-top: 8px;
+  box-shadow: 0px 0px 3px 0 rgb(191, 183, 183), 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+}
+
+.home .container .tag_container{
+  padding: 2px 4px;
+  border: .5px solid;
+  background-color: #e8e9f3;
+  border-color: gainsboro;
+  border-radius: 4px;
+  margin-top: 2px;
+  display: inline-block;
+}
+
+.sidePanel{
+  min-height: 100%;
+  min-width: 280px;
+  max-width: 280px;
+  background-color: inherit;
+  margin-top: 10px;
+  position: fixed;
+  padding: 16px;
+}
+
+.sidePanel .segments {
+  border-bottom: 1px solid;
+  padding-bottom: 4px;
+  border-color: #a29898;
+  margin-top: 10px;
+}
+
+
+
+

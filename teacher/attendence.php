@@ -10,6 +10,7 @@
 	<div class="topnav">
 	  <a href="index.php">Home</a>
 	  <a class="active" href="attendence.php">Attendence</a>
+	  <a href="resources.php">Share Resource</a>
 	</div>
 
 	<div class="sidepanel">

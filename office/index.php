@@ -8,7 +8,7 @@
 <body>
 	<div class="topnav">
 	  <a class="active" href="index.php">Home</a>
-	  <a href="newstudent.html">New student</a>
+	  <a href="newstudent.php">New student</a>
 	  <a href="publishnotice.php">Publish Notice</a>
 	  <a href="#about">About</a>
 	</div>
